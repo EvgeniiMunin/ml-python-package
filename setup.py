@@ -2,9 +2,9 @@ from setuptools import find_packages, setup
 
 
 setup(
-    name="ml_python_package_evgenii",
+    name="ml_python_package_evgenii_v2",
     packages=find_packages(),
-    version="0.1.8",
+    version="0.1.9",
     description="Training stuff",
     author="Evgenii",
     install_requires=["scikit-learn==0.24.1", "pandas==1.1.5",],
