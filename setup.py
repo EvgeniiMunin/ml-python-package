@@ -9,4 +9,6 @@ setup(
     author="Evgenii",
     install_requires=["scikit-learn==0.24.1", "pandas==1.1.5",],
     license="MIT",
+    long_description=open('README.md').read(),
+    long_description_content_type='text/markdown',
 )
